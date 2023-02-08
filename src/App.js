@@ -33,7 +33,7 @@ function App(){
   return(
     <BrowserRouter>
       <Routes>
-        <Route path = "/" element={<Main/>} >
+        <Route path = "/Shopping/" element={<Main/>} >
           <Route path="/home/" element={<Home/>}/>
           <Route path="/product/" element={<Product listValue={listValue} addToCart={addToCart}/>}/>
           <Route path="/contact/" element={<Contact/>}/>
