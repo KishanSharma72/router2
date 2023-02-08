@@ -1,0 +1,277 @@
+
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+
+
+ul {
+    list-style-type: none;
+    
+}
+
+
+
+nav {
+    background-color: rgb(41, 87, 167);
+    box-shadow: 0 1px 4px white;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: .1rem;
+    display: block;
+    padding: .5rem 2rem;
+    transition: all 0.3s linear;
+    
+}
+
+.menu a:hover {
+    background: rgb(211, 81, 64);
+    color: black;
+    padding-left: 1.5rem;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .1rem;
+
+}
+
+
+
+
+
+@media (min-width: 800px) {
+    .nav-main {
+        max-width: 1170px;
+        margin: 0 auto;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+
+    .nav-bar {
+        padding: 0;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    .menu {
+        height: auto;
+        display: flex;
+    }
+
+    .menu a {
+        padding: .5rem;
+        margin: 0 .5rem;
+        letter-spacing: 2px;
+    }
+
+    .menu a:hover {
+        text-decoration-color: darkgreen;
+    }
+    .logoo{
+      width: 100px;
+      border-radius: 20px;
+      
+    }
+    .active{
+      color: blue;
+    }
+    .Ab{
+        width: 500px;
+        height: 500px;
+    }
+    .Abc{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+     
+}
+
+
+.active{
+    color: black !important;
+}
+
+
+
+:root {
+    --surface-color: #fff;
+    --curve: 20;
+  }
+  
+  .Card-item-list {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #fef8f8;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 5vw;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .card {
+    position: relative;
+    display: block;
+    height: 100%;  
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .card__image {      
+    width: 100%;
+    height: 350px;
+  }
+  
+  .card__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;      
+    border-radius: calc(var(--curve) * 1px);    
+    background-color: var(--surface-color);      
+    transform: translateY(100%);
+    transition: .2s ease-in-out;
+  }
+  
+  .card:hover .card__overlay {
+    transform: translateY(0);
+  }
+  
+  .card__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    border-radius: calc(var(--curve) * 1px) 0 0 0;    
+    background-color: var(--surface-color);
+    transform: translateY(-100%);
+    transition: .2s ease-in-out;
+  }
+  
+  .card__arc {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 100%;
+    right: 0;      
+    z-index: 1;
+  }
+  
+  .card__arc path {
+    fill: var(--surface-color);
+    
+  }       
+  
+  .card:hover .card__header {
+    transform: translateY(0);
+  }
+  
+  .card__thumb {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;      
+    border-radius: 50%;      
+  }
+  
+  .card__title {
+    font-size: 1em;
+    margin: 0 0 .3em;
+    color: #6A515E;
+  }
+  
+  .card__tagline {
+    display: block;
+    margin: 1em 0;
+    font-family: "MockFlowFont";  
+    font-size: .8em; 
+    color: #D7BDCA;  
+  }
+  
+  .card__status {
+    font-size: .8em;
+    color: #D7BDCA;
+  }
+  
+  .card__description {
+    padding: 0 2em 2em;
+    margin: 0;
+    color: #D7BDCA;
+    font-family: "MockFlowFont";   
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }  
+  .card__description{
+    color: red;
+    background-color: rgb(194, 237, 109);
+  }
+  .card_button{
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    margin: 40px;
+    border: #fff;
+  }
+  .card_button1{
+    color: black;
+    background-color: yellow;
+    border: #fff;
+  }
+  
+  .Card_AAA{
+    border-collapse: collapse;
+    margin-left: 35px;
+      height: 250px;
+      width: 70%;
+    }
+  .Card_ccc{
+    color: black;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid black;
+  }
+
+
+
+
+ .containar{
+  border: 1px solid black;
+  padding-top: 2px;
+  margin-left:30%;
+  margin-right: 30%;
+  margin-top: 6%;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(120, 238, 201);
+  
+} 
+body{
+  background-color: rgb(202, 245, 202);
+}
