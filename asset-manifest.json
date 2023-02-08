@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/router2/static/css/main.fabd9bc4.css",
+    "main.js": "/router2/static/js/main.33721e23.js",
+    "static/js/787.c341ac72.chunk.js": "/router2/static/js/787.c341ac72.chunk.js",
+    "static/media/full.jpg": "/router2/static/media/full.87996ce3709055e4390f.jpg",
+    "static/media/OnePlus.jpg": "/router2/static/media/OnePlus.c21420bfb2395577fc4f.jpg",
+    "static/media/bodylotion.jpg": "/router2/static/media/bodylotion.9b9f0a7838c441169d8f.jpg",
+    "static/media/jacketmen.jpg": "/router2/static/media/jacketmen.f65892d2b18c9168ca9b.jpg",
+    "static/media/tshirt.jpg": "/router2/static/media/tshirt.dfcae0d9564d77e51d7e.jpg",
+    "index.html": "/router2/index.html",
+    "main.fabd9bc4.css.map": "/router2/static/css/main.fabd9bc4.css.map",
+    "main.33721e23.js.map": "/router2/static/js/main.33721e23.js.map",
+    "787.c341ac72.chunk.js.map": "/router2/static/js/787.c341ac72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fabd9bc4.css",
+    "static/js/main.33721e23.js"
+  ]
+}
