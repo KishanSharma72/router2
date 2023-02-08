@@ -34,11 +34,11 @@ function App(){
     <BrowserRouter>
       <Routes>
         <Route path = "/" element={<Main/>} >
-          <Route path="/home" element={<Home/>}/>
-          <Route path="/product" element={<Product listValue={listValue} addToCart={addToCart}/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/additems" element={<AddItems listValue={listValue} />}/>
-          <Route path="/*" element={<Error/>}/>
+          <Route path="/home/" element={<Home/>}/>
+          <Route path="/product/" element={<Product listValue={listValue} addToCart={addToCart}/>}/>
+          <Route path="/contact/" element={<Contact/>}/>
+          <Route path="/additems/" element={<AddItems listValue={listValue} />}/>
+          <Route path="*" element={<Error/>}/>
         </Route>
       </Routes>
       
